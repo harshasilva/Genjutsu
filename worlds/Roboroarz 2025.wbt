@@ -341,12 +341,12 @@ Robot {
   supervisor TRUE
 }
 E-puck {
-  hidden position_0_0 40.38502823561231
-  hidden position_0_1 40.38502823582689
-  hidden rotation_1 0 0.9999999999999999 0 0.09506902791097532
-  hidden rotation_2 0 1 0 0.09506899610315094
-  translation 1.3799799999997662 -1.3781899997383953 -5.595080840634786e-05
-  rotation 0.0004804700014701358 -0.0004800370372222703 0.9999997693564837 1.5716928693286407
+  hidden position_0_0 40.385028208784036
+  hidden position_0_1 40.385028208998584
+  hidden rotation_1 0 1 0 0.09506900108269857
+  hidden rotation_2 0 1 0 0.09506896927484185
+  translation 1.3799799999999147 -1.3781899999041143 -5.595468377088755e-05
+  rotation 0.00024899175906913334 -0.00024876617874711155 0.9999999380592443 1.571692700624158
   controller "Robot_Controller"
   controllerArgs [
     ""
@@ -357,6 +357,8 @@ E-puck {
   camera_height 640
   distance_sensor_numberOfRays 8
   turretSlot [
+    GPS {
+    }
     DEF emitter_2 Emitter {
       translation -0.43 0 0
       name "emitter_2"
