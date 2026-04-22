@@ -64,7 +64,7 @@ prev_gps_vals = [0, 0, 0]
 
 while robot.step(timestep) != -1:
     
-    # Get GPS values [x, y, z]
+    # et GPS values [x, y, z]
     gps_vals = gps.getValues()
     
     # Calculate current tile coordinate using the new function
